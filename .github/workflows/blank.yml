@@ -143,7 +143,7 @@ jobs:
           echo "    console.log('Tor started before visiting the website.');" >> continuous_visit_puppeteer.js
           echo "" >> continuous_visit_puppeteer.js
           echo "    await fetchIP(true);  // Show public IP after starting Tor" >> continuous_visit_puppeteer.js
-          echo "    await visitWebsite('https://dileepa1.netlify.app');" >> continuous_visit_puppeteer.js
+          echo "    await visitWebsite('https://dileepa2.netlify.app');" >> continuous_visit_puppeteer.js
           echo "    await randomWait();" >> continuous_visit_puppeteer.js
           echo "  }" >> continuous_visit_puppeteer.js
           echo "}" >> continuous_visit_puppeteer.js
